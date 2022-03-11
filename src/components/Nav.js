@@ -18,7 +18,7 @@ export default function Nav() {
         };
     },[]);
   return (
-    <nav className='nav'>
+    <nav className={`nav ${show&&"nav__black"}`}>
         <img
             alt='Netflix logo'
             src='https://w7.pngwing.com/pngs/299/104/png-transparent-netflix-logo-logos-brands-in-colors-icon-thumbnail.png'
