@@ -20,14 +20,14 @@ export default function Nav() {
   return (
     <nav className={`nav ${show&&"nav__black"}`}>
         <img
-            alt='Netflix logo'
-            src='https://w7.pngwing.com/pngs/299/104/png-transparent-netflix-logo-logos-brands-in-colors-icon-thumbnail.png'
+            alt='logo'
+            src="../image/logo.png"
             className='nav__logo'
             onClick={()=>window.location.reload()}
         />
         <img
             alt="User logged"
-            src="https://w.namu.la/s/e917e9e53f871484910eba4b0e6fa90d9cc67413901fb85cc534f67e60b27289e03a3e499cbb0f0db6734d866bda9313aac5cf362721fecaa88a24e5c5216536bb602f9f932ee13aed48d96f92fa8048038ff39c434a02ffd86d177873b9d48958a80dbaa3bc55ec89f03311f8406d3e"
+            src="../image/logo.png"
             className='nav__avatar'
         />
     </nav>
