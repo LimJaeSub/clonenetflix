@@ -22,6 +22,8 @@ export default function Row({title,isLargeRow,id,fetchUrl}) {
         setModalOpen(true);
         setMovieSelected(movie);
     }
+
+    
   return (
     <section className="row">
         <h2 className="movietitle">{title}</h2>
